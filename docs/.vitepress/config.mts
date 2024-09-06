@@ -2,15 +2,16 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "TODO: add your title here",
+  title: "Sam Vinu-Srivatsan",
   description: "6.1040 Fall 2024",
-  // TODO: add your base here; this should be your repo name!
-  // base: "/<REPO_NAME>/",
+  base: "/portfolio-samhita/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
       { text: "Blogs", link: "/blogs" },
+      {text: "About", link: "/about"},
+
     ],
 
     sidebar: [

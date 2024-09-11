@@ -1,3 +1,8 @@
+---
+title: Assignment 1
+layout: doc
+---
+
 # SOCIAL MEDIA NEEDFINDING INTERVIEWS
 
 Throughout the first half of 6.1040, I hope to design a social media app that bridges the language and generation barrier between family members or general community members. This idea is inspired by my relationship with my grandmother, Renu, who was also my first interviewee.
@@ -75,4 +80,3 @@ struggles with maintaining connections in person vs texting
 
 “texting is more useful in the short-term…” (emojis for connection)
 still in touch, end messages with yellow heart emoji (thoughtful connection)
-

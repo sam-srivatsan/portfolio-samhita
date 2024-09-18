@@ -10,4 +10,11 @@ layout: doc
 
 # 2. Scrapbook of comparables
 
+# add captions
 ![grandpad.png](grandpad.png)
+![hellotalk.png](../assets/scrapbook/hellotalk.png)
+![storycorps.jpg](../assets/scrapbook/storycorps.jpg)
+![tandem.png](../assets/scrapbook/tandem.png)
+![voxer.png](../assets/scrapbook/voxer.png)
+
+# 3. Brainstorming feature ideas

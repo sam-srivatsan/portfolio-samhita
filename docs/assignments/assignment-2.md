@@ -67,12 +67,12 @@ Description: A calendar that highlights holidays, traditions, and festivals from
 
 # 4. VSD Analysis
 1. Criterion: Stakeholders, Prompt: Consider Children, Features: Skills Exchange, Language Mentor Match
-    a.
-    b.
+    a. Observation: GenSpeak can positively impact a child's social and moral development. If a seven year old were playing with my app, they would benefit from building a connection, learning a skill, or learning a language from an older family member or disconnected due to generational or linguistic differences.
+    b. Design response: Scoping the app to a small, curated group of family or friends keeps the app safer so that children don't engage with random or lesser known adults on the internet and share personal details.
 
-2. Criterion: Time, Prompt: Sustained Friendships, Features:
-    a.
-    b.
+2. Criterion: Time, Prompt: Sustained Friendships, Features: Cross-Generational Book Club
+    a. Observation: The book club is a safe, comfortable setting for people to form deeper relationships with their loved ones by discussing literature, poetry, music, or books across cultures. Five years out, it might also encourage people to continue reading and thinking critically in an age of instant gratification and doomscrolling.
+    b. Design: 
 
 3. Criterion: Pervasiveness, Prompt: Political Realities, Features:
     a.

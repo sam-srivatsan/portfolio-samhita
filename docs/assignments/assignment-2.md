@@ -9,8 +9,6 @@ layout: doc
 **Value:** Current social media apps are powerful, multifaceted ways to connect with so many people across the world. However, each app usually has a high concentration of a specific demographic: Facebook is more common among Gen X, Instagram among Millenials and Gen Z, and TikTok among Gen Z and Gen Alpha. Despite built-in translation features, people also cluster based on their language and nationality. GenSpeak is built for much communities that are both smaller and more generationally and linguistically diverse, such as immigrant families. It will focus on intuitive, universally usable app design and more photo, video, and audioclip capability than attemps at direct translations.
 
 # 2. Scrapbook of comparables
-
-# add captions
 ![grandpad.png](grandpad.png)
 Grandpad has a simplified user interface and assistant that are simpler to use for grandparents to connect with family members - could we have an assistant or simplify similarly?
 
@@ -19,14 +17,14 @@ Grandpad has a simplified user interface and assistant that are simpler to use f
 HelloTalk allows language learners to practice with native speakers. This feature allows users to correct each other and chat with integrated translation and speaking/listening - this multimedia interaction is similar to what we want for GenSpeak.
 
 
-![storycorps.jpg](storycorps.jpg)[width = 200]
+![storycorps.jpg](storycorps.jpg)
 StoryCorps allows people to store recordings or interviews and conversations where they learn about their family history. This could be useful to emulate when storing time capsules or in the wisdom wall feature.
 
 ![tandem.png](tandem.png)
 Tandem is a language learning app that matches users to native speakers. Each family member within a group in the app can have short bios like this including their familiarity with or interest in different languages. Could we also emulate the integrated video call feature or just encourage people to set up separate video calls?
 
 ![voxer.png](voxer.png)
-Voxer has a push-to-talk walkie-talkie feature and a lot of multimedia options. They also keep data safe and secure, which is important for GenSpeak. The web and app functionalities make it more accessible - we could eventually scale based on the needs of our user base. 
+Voxer has a push-to-talk walkie-talkie feature and a lot of multimedia options. They also keep data safe and secure, which is important for GenSpeak. The web and app functionalities make it more accessible - we could eventually scale based on the needs of our user base.
 
 # 3. Brainstorming feature ideas
 
@@ -96,3 +94,12 @@ Description: A calendar that highlights holidays, traditions, and festivals from
 5. Criterion: Values, Prompt: Value Tensions, Features: Generational Time Capsule
     a. A time capsule feature might cause value tension between fostering community and data privacy. Users will add photos, images, recordings, and share personal information. This variety in media and the amount of time for which time capsules might be saved in the app or the cloud might make users feel unsafe too.
     b. Add an option for users to opt-in or out of sharing certain pieces of information, but also ensure that there is a robust way to store or erase the personal infomration and data after a certain time period. Always keep users in the loop.
+
+# Storyboarding and Sketching
+
+![flow1.png](flow1.png)
+![flow2.png](flow2.png)
+Things that are unclear about the flow:
+- Are these too many features? How can I avoid clutering the app?
+- Will these be dropdowns or scrolling lists? Can users search for the feature they want?
+- Can users only join one group/family or multiple? 

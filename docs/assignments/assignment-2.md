@@ -12,10 +12,10 @@ layout: doc
 
 # add captions
 ![grandpad.png](grandpad.png)
-![hellotalk.png](../assets/scrapbook/hellotalk.png)
-![storycorps.jpg](../assets/scrapbook/storycorps.jpg)
-![tandem.png](../assets/scrapbook/tandem.png)
-![voxer.png](../assets/scrapbook/voxer.png)
+![hellotalk.png](hellotalk.png)
+![storycorps.jpg](storycorps.jpg)
+![tandem.png](tandem.png)
+![voxer.png](voxer.png)
 
 # 3. Brainstorming feature ideas
 
@@ -72,16 +72,16 @@ Description: A calendar that highlights holidays, traditions, and festivals from
 
 2. Criterion: Time, Prompt: Sustained Friendships, Features: Cross-Generational Book Club
     a. Observation: The book club is a safe, comfortable setting for people to form deeper relationships with their loved ones by discussing literature, poetry, music, or books across cultures. Five years out, it might also encourage people to continue reading and thinking critically in an age of instant gratification and doomscrolling.
-    b. Design: 
+    b. Design: Integrate book club tab/page with a calendar functionality so that people can visually carve out meaningful downtime or reading time with their loved ones. Also include GoodReads inspired reading list/review page where app users or app group users (within a family/friend group) can collect suggestions and leave reviews!
 
-3. Criterion: Pervasiveness, Prompt: Political Realities, Features:
-    a.
-    b.
+3. Criterion: Pervasiveness, Prompt: Political Realities, Features: Story Swap, Generational Timeline (if events like wars or protests come up)
+    a. Observation: Two political realities that my app could be used in, from personal example, could be places like the US, who have maintained independent democracy for many years, and Kazakhstan (one of my user interviews), which is currently undergoing a democratic and cultural revolution after the USSR dissolution. This means that users will have different political experiences and perspectives, which could cause friction on the app, especially because different generations even within one community may vary drastically in views.
+    b. One option could be to ban or regulate political discourse on GenSpeak. Another could be to give users a platform to discuss it. This could be in the form of a strictly non-anonymous forum or messageboard to hold posters accountable, or a way to link multimedia such as news articles or clips. GenSpeak could also have an opt-out function for certain audiences, for example, parents who want to opt younger children out of politics and only use the family connection features of the app.
 
-4. Criterion: Pervasiveness, Prompt: Crossing National Boundaries, Features:
-    a.
-    b.
+4. Criterion: Pervasiveness, Prompt: Crossing National Boundaries, Features: Linguistic/Cultural Trivia
+    a. My user interviewees were from India and Kazakhstan. These countries could have totally different technology rules and social media etiquette than the US.
+    b. My app might accidentally perpetuate misinformation or miscommunication. Hopefully, features like voice memos and photos will allow people to express their genuine tones instead of start flame wars based on misinterpreted text communication. However, the app also seeks to connect people from different countries and backgrounds! Thus, it will take advantage of these differences to form relationships based on embracing cultural differences and learning more about each other.
 
-5. Criterion: Values, Prompt: Value Tensions, Features:
-    a.
-    b.
+5. Criterion: Values, Prompt: Value Tensions, Features: Generational Time Capsule
+    a. A time capsule feature might cause value tension between fostering community and data privacy. Users will add photos, images, recordings, and share personal information. This variety in media and the amount of time for which time capsules might be saved in the app or the cloud might make users feel unsafe too.
+    b. Add an option for users to opt-in or out of sharing certain pieces of information, but also ensure that there is a robust way to store or erase the personal infomration and data after a certain time period. Always keep users in the loop.

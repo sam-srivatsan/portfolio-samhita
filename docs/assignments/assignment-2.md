@@ -12,6 +12,7 @@ layout: doc
 
 # add captions
 ![grandpad.png](grandpad.png)
+Grandpad has a simplified user interface and assistant that are simpler to use for grandparents to connect with family members - could we have an assistant or simplify similarly?
 ![hellotalk.png](hellotalk.png)
 ![storycorps.jpg](storycorps.jpg)
 ![tandem.png](tandem.png)

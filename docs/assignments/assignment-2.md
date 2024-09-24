@@ -97,9 +97,9 @@ Description: A calendar that highlights holidays, traditions, and festivals from
 
 # Storyboarding and Sketching
 
-![flow1.png](flow1.png)
-![flow2.png](flow2.png)
+![flow1.png](flow1.jpg)
+![flow2.png](flow2.jpg)
 Things that are unclear about the flow:
 - Are these too many features? How can I avoid clutering the app?
 - Will these be dropdowns or scrolling lists? Can users search for the feature they want?
-- Can users only join one group/family or multiple? 
+- Can users only join one group/family or multiple?

@@ -107,6 +107,57 @@ Define the app-level actions as synchronizations of concept actions, and instant
 
 ![dependency.jpg](dependency.jpg)
 
+```
+sync authenticationAndSession(user: User):
+    if user.isAuthenticated():
+        throw new Error("User is already logged into an account")
+    if user.isInActiveSessions():
+        user.accessContent({Posts, Replies, Groups, Calendar})
+```
+
+```
+sync groupsAndPosts(user: User):
+    if user.isInGroups():
+        posts = user.getGroupPosts()
+        user.view(posts)
+
+```
+
+```
+sync groupsAndCalendar(user: User):
+    if user.isInGroups():
+        events = user.getGroupEvents()
+        user.view(events)
+
+```
+
+```
+sync postsAndReplies(user: User, post: Post):
+    if post.isInGroupPosts() and user.isInActiveSessions():
+        user.addReplyToPost(post)
+        post.addReply(user.reply)
+```
+
+```
+sync calendarAndEvents(user: User):
+    if user.isInActiveSessions():
+        user.addEvent()
+        user.linkEventToGroups()
+```
+
+```
+sync sessionAndVisibility(user: User):
+    if user.session.isValid():
+        visibleContent = user.getGroupContentIntersection({Posts, Replies, Events})
+        user.setVisibility(visibleContent)
+```
+
+```
+sync authenticationSync(user: User):
+    if user.isAuthenticated():
+        user.visibleContent = {Posts, Replies, Calendar} only if user.isInActiveSessions()
+```
+
 1. **Authentication and Session:**
    - If `User` is Authenticated, then `User` is in `Active Sessions`.
    - If `User` is in `Active Sessions`, then `User` can access `Posts`, `Replies`, `Groups`, `Calendar`.

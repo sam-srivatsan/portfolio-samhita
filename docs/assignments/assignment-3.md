@@ -1,12 +1,15 @@
 wiref# Pitch
 ### GenSpeak: Bridging Generations Through Shared Stories and Cultures
 
-GenSpeak is designed to bring together family members and friends across generations, especially those separated by language or cultural differences. Aimed at multi-generational and immigrant families, GenSpeak goes beyond traditional social media by offering a platform that focuses on deep, meaningful connections. Unlike apps that divide users by demographic or language, GenSpeak empowers communication through intuitive design and multimedia tools like photos, videos, and voice memos.
+GenSpeak brings family members and friends together across generations and languages. Tailored for multi-generational and immigrant families, GenSpeak fosters deep, meaningful communication by allowing users to share stories, traditions, and experiences in an intuitive environment.
 
-Key features include the **Cultural Celebration Calendar**, which highlights holidays and traditions across cultures and generations, and **Story Swap**, where users can share personal memories and cultural insights. **Language Mentor Match** pairs older and younger generations to teach each other their native languages, while the **Wisdom Wall** allows older users to share life lessons and advice in a community format.
+At the heart of GenSpeak are its Posts and Replies. Users can create posts from pre-made template conversation-starters that highlight cultural insights and personal memories, ensuring visibility is tailored to group membership. Conversations remain private and meaningful. Users can add replies to engage in discussions, creating dialogue within family groups.
 
-With seamless voice-to-text translation and interactive time capsules, GenSpeak ensures that everyone, regardless of age or language, can stay connected and engaged. It’s a tool not just for communication but for learning, collaboration, and preserving heritage across generations.
+To ensure a secure experience, GenSpeak features robust Authentication and Session management. Users register and log in to create a personalized space, while active sessions maintain a seamless flow of interaction.
 
+The Cultural Celebration Calendar allows users to schedule and celebrate important events, integrating directly with posts and group discussions. Users can create events linked to their cultural traditions and invite family members, making it easy to stay connected and engaged.
+
+By emphasizing collaboration and connection, GenSpeak transforms how families communicate across generations.
 ---
 
 # Concepts
@@ -157,4 +160,4 @@ Various options:
   - Make all posts public within the app.
   - Restrict post visibility to group members only.
 Why I chose this option over others:
-Restricting post visibility to group members enhances privacy trust! This contributes to the familial feeling of the app, which encourages users to share sensitive cultural insights and personal stories. 
+Restricting post visibility to group members enhances privacy trust! This contributes to the familial feeling of the app, which encourages users to share sensitive cultural insights and personal stories.

@@ -105,6 +105,8 @@ Define the app-level actions as synchronizations of concept actions, and instant
 
 # Dependency Diagram & Synchronizations
 
+![dependency.jpg](dependency.jpg)
+
 1. **Authentication and Session:**
    - If `User` is Authenticated, then `User` is in `Active Sessions`.
    - If `User` is in `Active Sessions`, then `User` can access `Posts`, `Replies`, `Groups`, `Calendar`.
@@ -138,8 +140,6 @@ Link: https://www.figma.com/design/IsYOPFe29EHQsblz2lNcdw/genspeak?node-id=0-1&t
 This wireframe demonstrates all six concepts: authentication (and session, which is connected), post, reply, groups, and calendar.
 ![wireframe.png](wireframe.png)
 
-
-
 # Design tradeoffs.
 (300 words total)
 ## Decision 1: Event Time!
@@ -148,14 +148,14 @@ Various options:
     - Develop an in-app calendar (seamless user experience)
 Why I chose this option over others (for now): Integrating with Google Calendar offers users familiarity and robust features like reminders and sharing. Connecting to Google via API to sign into my app also makes Authentication and Sessioning easier and better synchronizes many of my different concepts.
 
-## Decision 2 [pithy title here]
+## Decision 2: Ready, set, login!
 Various options:
   - Traditional username/password authentication.
   - Utilize social media login options (e.g., Google, Facebook).
 Why I chose this option over others:
 Social media logins streamline access and increase user acquisition. They also have better existing privacy infrastructure than I.
 
-## Decision 3 [pithy title here]
+## Decision 3: Mom's gonna see you say that!
 Various options:
   - Make all posts public within the app.
   - Restrict post visibility to group members only.

@@ -1,3 +1,8 @@
+---
+title: Assignment 3
+layout: doc
+---
+
 wiref# Pitch
 ### GenSpeak: Bridging Generations Through Shared Stories and Cultures
 

@@ -4,3 +4,16 @@ Hi! I'm a second-year MIT undergraduate from San Francisco, CA. I'm looking forw
 
 
 ![mountains.jpg](mountains.jpg)
+
+
+<div class="header">
+    <h1 style="text-align:center;">FAQ</h1>
+    <b> <p style="text-align:center;">Question</p> </b>
+    <i> <p style="text-align:center;">Answer</p> </i>
+    <b> <p style="text-align:center;">Question</p> </b>
+    <i> <p style="text-align:center;">Answer</p> </i>
+    <b> <p style="text-align:center;">Question</p> </b>
+    <i> <p style="text-align:center;">Answer</p> </i>
+</div>
+
+<a rel="mailto:samhita@mit.edu">samhita@mit.edu</a>

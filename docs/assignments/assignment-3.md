@@ -2,8 +2,6 @@
 title: Assignment 3
 layout: doc
 ---
-
-wiref# Pitch
 ### GenSpeak: Bridging Generations Through Shared Stories and Cultures
 
 GenSpeak brings family members and friends together across generations and languages. Tailored for multi-generational and immigrant families, GenSpeak fosters deep, meaningful communication by allowing users to share stories, traditions, and experiences in an intuitive environment.

@@ -1,3 +1,7 @@
+---
+layout: doc
+---
+
 # Blog 1: Design That Matters
 
 Lyel’s lecture inspired me to read about Joy Buolamwini’s work (listed in his presentation as “people to follow”). Joy is the founder of the Algorithmic Justice League and was a PhD student at the MIT Media Lab. Her work aligns closely with the value-centered design principles that we have been using in 6.1040 and with the AI-ethics intersection that feels omnipresent on campus!

@@ -4,6 +4,9 @@ layout: doc
 
 # Blog 3: PlantIt - Nisha's Blog Critique
 
+[Nisha's Original Blog Post](https://nisha-nathan.github.io/portfolio-nisha/blogs/blog5.html)
+
+
 ## Bouncing Beavers' PlantIt Pitch
 
 I’m responding to Nisha’s blog post reviewing the Bouncing Beavers group’s PlantIt project pitch. I agree that it’s a super creative, cute concept! I thought the pitch was very engaging, including the (sardonic) jokes and appeal to the target audience.

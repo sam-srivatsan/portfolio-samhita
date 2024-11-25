@@ -1,5 +1,5 @@
 ---
-title: Project Phase 3- Convergent Design
+title: Project Phase 3 - Convergent Design
 layout: doc
 ---
 <style>
@@ -21,7 +21,7 @@ div.scroll-container img {
 
 <details>
 
-<summary><b>Concept 01</b></summary> 
+<summary><b>Concept 01</b></summary>
 
 <b>Concept:</b> Logging
 
@@ -29,7 +29,7 @@ div.scroll-container img {
 
 
 <b>Operational Principle:</b>   After a user “logs” an entry on a certain day, they can look back at their logged entries for that day, and the new entry will be shown.
- 
+
 
 <b>State</b>
 
@@ -38,7 +38,7 @@ div.scroll-container img {
 - logMood: LogEntry → one Mood // Mood recorded in an entry
 - logFlowIntensity: LogEntry → one IntensityLevel // Flow intensity recorded in an entry
 - logTime: LogEntry → one DateTime // Timestamp of the log
-    
+
 <b> Actions </b>
 
 ```
@@ -72,23 +72,23 @@ deleteLogEntry(log: LogEntry)
 
 <details>
 
-<summary><b>Concept 02</b></summary> 
+<summary><b>Concept 02</b></summary>
 
-<b>Concept:</b> :  Checklisting 
+<b>Concept:</b> :  Checklisting
 
-<b>Purpose:</b> Offer a checklist to remind users to complete essential tasks and build healthy habits throughout their cycle. 
+<b>Purpose:</b> Offer a checklist to remind users to complete essential tasks and build healthy habits throughout their cycle.
 
 
 
-<b>Operational Principle:</b>   When a user opens their checklist they can mark tasks as completed and they then will show up as checked off. Later when the user opens their checklist they will see this entry stays as being checked off. Each day at midnight all entries on the checklist are marked as uncompleted. A user can add new tasks to their checklist and they will be added and show up as initially uncompleted. 
- 
+<b>Operational Principle:</b>   When a user opens their checklist they can mark tasks as completed and they then will show up as checked off. Later when the user opens their checklist they will see this entry stays as being checked off. Each day at midnight all entries on the checklist are marked as uncompleted. A user can add new tasks to their checklist and they will be added and show up as initially uncompleted.
+
 
 <b>State</b>
 
 - userChecklists: User → set Checklist // Maps users to their checklists
 - checklistTasks: Checklist → set Task // Tasks contained in a checklist
 - taskStatus: Task → Boolean // Status of a task (True if completed, False otherwise)
-    
+
 <b> Actions </b>
 
 ```
@@ -140,7 +140,7 @@ retrieveChecklists(user: User, out checklists: set Checklist)
 
 <details>
 
-<summary><b>Concept 03</b></summary> 
+<summary><b>Concept 03</b></summary>
 
 <b>Concept:</b>  Posting[Post]
 
@@ -148,7 +148,7 @@ retrieveChecklists(user: User, out checklists: set Checklist)
 
 <b>Operational Principle:</b>    After posting a “Post” all users of the app are able to see the posted content. When a user creates a post marked as a “CareBoard” post, it is shown on this user’s personal “CareBoard” page. Other posts become visible as a SisterCircles post.
 
- 
+
 
 <b>State</b>
 
@@ -160,7 +160,7 @@ retrieveChecklists(user: User, out checklists: set Checklist)
 - postTags: Post → set Tag // Tags associated with the post
 - postTimestamp: Post → one DateTime // Timestamp when the post was created
 
-    
+
 <b> Actions </b>
 
 ```
@@ -195,7 +195,7 @@ sortPostsByTimestamp(order: String, out posts: set Post)
 {
     Retrieves posts sorted by their timestamps in ascending or descending order.
     Precondition: Order is either "asc" or "desc".
-    Postcondition: Returns posts sorted by postTimestamp 
+    Postcondition: Returns posts sorted by postTimestamp
 }
  ```
 
@@ -211,16 +211,16 @@ deletePost(post: Post)
 
 <details>
 
-<summary><b>Concept 04</b></summary> 
+<summary><b>Concept 04</b></summary>
 
 <b>Concept:</b>  Replying[Post]
 
 <b>Purpose:</b> Users can create text replies on one Post
 
 
-<b>Operational Principle:</b>  When a user “replies” to a Post, a textbox appears. After putting text into it, the text will now appear under the original post. 
+<b>Operational Principle:</b>  When a user “replies” to a Post, a textbox appears. After putting text into it, the text will now appear under the original post.
 
- 
+
 
 <b>State</b>
 
@@ -228,7 +228,7 @@ deletePost(post: Post)
 - replyContent: Reply → one String // Text content of the reply
 - replyCreator: Reply → one User // User who created the reply
 - replyParentPost: Reply → one Post // Post the reply belongs to
-    
+
 <b> Actions </b>
 
 ```
@@ -254,16 +254,16 @@ viewReplies(post: Post, out replies: set Reply)
 
 <details>
 
-<summary><b>Concept 05</b></summary> 
+<summary><b>Concept 05</b></summary>
 
 <b>Concept:</b>  Reacting[Post]
 
-<b>Purpose:</b>   Users can create emoji “reactions” to a Post created by other users. 
+<b>Purpose:</b>   Users can create emoji “reactions” to a Post created by other users.
 
 
-<b>Operational Principle:</b>   When a user “reacts” to a Post, they can select from four emojis, and after selecting one it appears on the corner of the post with a number indicating how many people have reacted to the same Post with the same emoji. 
+<b>Operational Principle:</b>   When a user “reacts” to a Post, they can select from four emojis, and after selecting one it appears on the corner of the post with a number indicating how many people have reacted to the same Post with the same emoji.
 
- 
+
 
 <b>State</b>
 
@@ -271,7 +271,7 @@ viewReplies(post: Post, out replies: set Reply)
 - reactionType: Reaction → one Emoji // Emoji used for the reaction
 - reactionPost: Reaction → one Post // Post the reaction belongs to
 - reactionCount: Reaction → Integer // Count of reactions for a specific emoji
-    
+
 <b> Actions </b>
 
 ```
@@ -295,21 +295,21 @@ viewReactions(post: Post, out reactions: set Reaction)
 
 <details>
 
-<summary><b>Concept 06</b></summary> 
+<summary><b>Concept 06</b></summary>
 
 <b>Concept:</b>  Opting
 
-<b>Purpose:</b>   Users can select in the app’s settings whether or not they want to be able to access a certain feature, such as the discussion forum, mood tracking, self-care checklist, etc. 
+<b>Purpose:</b>   Users can select in the app’s settings whether or not they want to be able to access a certain feature, such as the discussion forum, mood tracking, self-care checklist, etc.
 
 
 <b>Operational Principle:</b>    If a user opts out of a specific feature (by unchecking it’s associated check-box), it is no longer visible for them in the app. It becomes visible for them only if they opt back in.
 
- 
+
 
 <b>State</b>
 
 - featureSettings: User → set Feature // Enabled features for each user
-    
+
 <b> Actions </b>
 
 ```
@@ -390,13 +390,13 @@ The **Vital Cycle** wireframes outline the foundational user interactions and la
  <a href="https://www.figma.com/design/KiqK5UznD9noc3ZlJzBijf/VitalCycle?node-id=75-3017&t=Cysq9Hf2BFZRqPW4-1">Figma Wireframes for VitalCycle</a>
 
 
- ## Heuristic Evaluation :microscope: 
+ ## Heuristic Evaluation :microscope:
 
- ### Usability Criteria 
+ ### Usability Criteria
 
 
  <div style="margin-left:20px">
- 
+
  1. <h4>Discoverability: how rapidly and easily can users understand how to operate the interface?</h4>
  <div style="margin-left:20px">
 
@@ -410,22 +410,22 @@ The **Vital Cycle** wireframes outline the foundational user interactions and la
 
  2. <h4>Safety: how does the interface guard against people making mistakes?</h4>
  <div style="margin-left:20px">
- 
+
 - Since the sidebar is visible on all pages of the app, if a user accidentally navigates to the wrong page, they can easily fix this by selecting the correct page in the sidebar
 
 - Buttons on the app like “Export” or “Daily Checklist” have a clear way to close out of the pop-ups if the user accidentally presses them (pressing the x button in the top right). Buttons like symptom/mood/flow selections can be clicked again to un-select them.
 
-- We don’t currently have this in our Wireframes, but something we should add to better support this heuristic is a way for users to delete posts or comments that they made if they later decide that they want them taken down. Similarly, we should add a way for users to remove tasks from their daily checklist. 
+- We don’t currently have this in our Wireframes, but something we should add to better support this heuristic is a way for users to delete posts or comments that they made if they later decide that they want them taken down. Similarly, we should add a way for users to remove tasks from their daily checklist.
 - Users can use the calendar icon on the “Today” page to navigate past logs and modify any previous entries that they made.
 </div>
 
  </div>
 
-  ### Physical Heuristics 
+  ### Physical Heuristics
 
 
  <div style="margin-left:20px">
- 
+
  1. <h4>Mapping: does the layout of the interface elements match their function?</h4>
  <div style="margin-left:20px">
 
@@ -441,22 +441,22 @@ The **Vital Cycle** wireframes outline the foundational user interactions and la
 
  2. <h4>Situational context: how does the interface convey to a user their context (where they are, the app’s state, etc.), and how does it adapt to their context?</h4>
  <div style="margin-left:20px">
- 
+
 - In the sidebar we highlight in a different color which page the user is currently on (Today, Library, Sister Circles, My Care Board, Profile). Something else we could add in to better convey this context is a title at the top of each page also with these labels. Some of the pages have this already but for example it is missing on the “Today” page and the “Profile” page.
 
 - On the “Sister Circles” page we are showing at the top which circles the user has added. We are also showing which they are currently viewing by highlighting this option. Additionally when a user clicks the “Add Circle” button, we remove from the recommended to join options the circles the user has already joined (so they know they cannot add them in again), and don’t let them show up if they search specifically for them again.
 
-- Something that’s not in our wireframe but could better convey situational context is on posts with no replies have a label like “no comments made on this post yet” to help the user understand why there is nothing below a post when they see comments on some other ones. Similarly if a user hasn’t published anything on their “My Care Board” page, it should show a message like “Nothing posted yet”. 
+- Something that’s not in our wireframe but could better convey situational context is on posts with no replies have a label like “no comments made on this post yet” to help the user understand why there is nothing below a post when they see comments on some other ones. Similarly if a user hasn’t published anything on their “My Care Board” page, it should show a message like “Nothing posted yet”.
 - In the “Library” page we are highlighting which topics of interest the user has currently selected to view, and when the user adds a new one, a new section appears below the “topics of interet” box with library entries for this section. When a user deselects a topic by clicking it again, this section will disappear (adapting to their context).
 </div>
 
  </div>
 
-   ### Linguistic Level 
+   ### Linguistic Level
 
 
  <div style="margin-left:20px">
- 
+
  1. <h4>Speak a user’s language: does the interface use simple, helpful, informative messages? Are there instances where messages might only be understandable by developers?</h4>
  <div style="margin-left:20px">
 
@@ -471,8 +471,8 @@ The **Vital Cycle** wireframes outline the foundational user interactions and la
 
  2. <h4>Consistency: does the interface reuse the same names, symbols, and icons for the same concepts or actions? How consistent is the interface with others across the same application domain or platform?</h4>
  <div style="margin-left:20px">
- 
-- Across all of the options in the Mood, Flow Intensity, and Symptoms sections, we are using the same button interface to show that the interaction with these elements is the same. 
+
+- Across all of the options in the Mood, Flow Intensity, and Symptoms sections, we are using the same button interface to show that the interaction with these elements is the same.
 
 - The “How did your day go” section is inconsistent with the rest of the sections on the “Today” page (because it uses a different interaction). This is a tradeoff because having a section that’s different than how you interact with the rest of the sections on the page could be confusing for the user, but by allowing the user to write in responses instead of just selecting from a pre-chosen set, we are giving them more freedom to choose what they want to log for this day. By leaving the other sections as pre-chosen buttons they can select, we are still giving the user the option to quickly create a log if they don’t have much time/don’t have the effort to write a response.
 
@@ -492,7 +492,7 @@ The **Vital Cycle** wireframes outline the foundational user interactions and la
 
  ## Project Plan :page_with_curl:
 
- ### Ordering Implementation of Concepts: 
+ ### Ordering Implementation of Concepts:
 <div style="margin-left:20px">
 
 1. <h4> Logging </h4>
@@ -526,10 +526,10 @@ The **Vital Cycle** wireframes outline the foundational user interactions and la
 - (Not in Posting concept, but a synchronization): Create a route for exporting logged data into creating a post (either in Care Board or Sister Circles)
     - ASSIGNED TO: Sam, DEADLINE: 27th November
 
-- Layout Sister Circles page (“view”) using CSS/Bootstrap to match Wireframes 
+- Layout Sister Circles page (“view”) using CSS/Bootstrap to match Wireframes
     - ASSIGNED TO: Nisha, DEADLINE: 5th December
 
-- Layout My Care Board page (“view”) using CSS/Bootstrap to match Wireframes 
+- Layout My Care Board page (“view”) using CSS/Bootstrap to match Wireframes
     - ASSIGNED TO: Nisha, DEADLINE: 5th December
 
 - Create a route and front-end interaction for searching Sister Circle posts by what they contain in their post-caption.
@@ -543,9 +543,9 @@ The **Vital Cycle** wireframes outline the foundational user interactions and la
 
 - Create a Replying class and initialize collections to store all of the replies on the posts. To implement this concept, we might want two collections - one for replies on the CareBoard and one for replies on Sister Circles (but we could also choose to have just one). Create methods for populating/removing info from the collection(s).
     - ASSIGNED TO: Sam, DEADLINE: 5th December
-- Create front-end interaction for users to reply to a specific post (taking in the post-id they are replying to, the user ID of the user replying, their text reply,  and the current time). Create a route to save this in the database and call it. 
+- Create front-end interaction for users to reply to a specific post (taking in the post-id they are replying to, the user ID of the user replying, their text reply,  and the current time). Create a route to save this in the database and call it.
     - ASSIGNED TO: Ao, DEADLINE: 27th November
-- Create a front-end interaction & route for getting all of the replies on a specific post. 
+- Create a front-end interaction & route for getting all of the replies on a specific post.
     - ASSIGNED TO: Nora, DEADLINE: 5th December
 
 </div>
@@ -556,7 +556,7 @@ The **Vital Cycle** wireframes outline the foundational user interactions and la
 
 - Create a Checklisting class and initialize a collection to store what items are in each user’s daily log and which they have checked off. Create methods for adding/removing data from this collection. Additionally, store in the collection the last date/time a user has opened the checklist so if it gets opened again on a separate day, what they checked off gets refreshed.
     - ASSIGNED TO: Sam, DEADLINE: 5th December
--   Create a front-end interaction & route for loading (displaying) the checklist for a specific user when they open the daily log. 
+-   Create a front-end interaction & route for loading (displaying) the checklist for a specific user when they open the daily log.
     - ASSIGNED TO: Nora, DEADLINE: 5th December
 - Create front-end interaction & route for checking items off the list
     - ASSIGNED TO: Ao, DEADLINE: 5th December
@@ -599,6 +599,3 @@ The **Vital Cycle** wireframes outline the foundational user interactions and la
 ### What We Will Do If Something Goes Wrong:
 
 If we aren’t able to complete these tasks by their deadlines, we can consider dropping certain tasks. The concepts we want to make sure we implement are Logging, Posting, Replying, and Checklisting. The other three concepts would improve our app, but don’t include main features and if we don’t have enough time to complete them we could consider dropping these and still have the minimum viable product. In general though we expect each team member to complete the tasks they were assigned and are responsible for
-
-
- 

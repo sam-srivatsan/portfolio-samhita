@@ -3,6 +3,8 @@ title: Assignment 6 - User Testing
 layout: doc
 ---
 
+# User Testing Task List
+
 | **Task Title**                      | **Instruction For User**                                                                 | **Rationale**                                                                                                                                                                                               |
 |-------------------------------------|------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Account Registration**            | “Your first task is to register with a new account.”                                      | Users need to be logged in to be able to access most of the features of the app. As well as setting up for the following tasks, this task will test if our login/register feature is discoverable and intuitive. |
@@ -11,3 +13,35 @@ layout: doc
 | **Create an Event**                 | “Your next task is to create a post in Sister Circles. Once you’ve created a post, react to it with an emoji of your choice.” | This task is important to include because one of the main values of our app is community. It will test if the create button is discoverable and whether the interface for reacting to posts is intuitive. |
 | **Create a Scrapbook (Image) Post** | “Your next task is to log out of your account and register with a second user.”            | This task is necessary to set up for the next task, where the user will need access to two different accounts. It will also test whether the user can easily find the logout button in the Settings page. |
 | **Invite Another User to Group**   | “Your next task is to create a My Careboard post in your new account. Once you’ve created a post, invite your original account to your careboard. Log back into your original account and use the invite to visit this careboard.” | The Careboard feature promotes the community value of our app. This task will test if the invite management interface is intuitive and if the user can understand the state of their interaction with the Careboard. |
+
+
+# User Interviews
+
+## Lydia: International Student
+Most of Lydia's family and childhood friends live abroad. She was interested in helping test GenSpeak, and brought her context as someone whose first language isn't English, and who frequently communicates with people of other generations, locations, and languages.
+
+Lydia successfully created an account and followed the task list without difficulty. She appreciated the clear tab views within the Groups page, which made it easy for her to navigate between different groups. However, she encountered some usability issues that could impact the overall user experience.
+Lydia mentioned that the lack of group descriptions on the Groups page made it hard to understand the group's focus. Without descriptions, users have to rely on the group titles, which can be vague unless they are very specific. Although users could infer a group’s purpose from its content or the person who invited them, Lydia pointed out that adding descriptions would reduce the guesswork and make the app more intuitive.
+Lydia also identified a critical issue with the event creation feature. She found that the author and event details were missing, which rendered the event functionality useless. She emphasized that this issue is critical because users cannot post or interact with events, which is a key feature of the app. Without this functionality working properly, the app loses a significant portion of its usefulness.
+Lastly, Lydia had trouble with the "invite new member" feature. She explained that the system sometimes used the group ID instead of the username, making the invitation process unreliable. This issue made group formation more difficult and reduced the app’s user-friendliness.
+In conclusion, Lydia’s feedback highlights three main areas for improvement: adding group descriptions, fixing the event creation functionality, and refining the member invite system. Addressing these issues will make the app more user-friendly and enhance its overall usability.
+
+
+### Madina: GTL Host Mom and English Language Learner
+Madina was born and raised in Kazakhstan. She was my GTL host mother, and speaks very minimal English. I tested my app with her to see whether it would actually meet our objective of communicating across generations and languages.
+Madina had a few challenges while using the app, especially with language. She had trouble understanding some parts of the app. This could be improved by adding something like the Google Translate API, which would make the app more accessible for users who don’t speak English fluently.
+Another issue she had was with the toast messages disappearing too quickly for her to read. This made it tough for her to understand important updates or instructions, and slowing them down could help users like Madina who need a little more time to process the information.
+Madina also pointed out that she couldn’t see event details, like the author or any other important information, which made the event feature less useful. Events are a big part of the app, so this issue should definitely be fixed so users can get the full experience.
+She also mentioned that she would’ve liked more icons or a more visual interface. Since her English isn’t strong, adding more pictures or symbols could make the app easier to use. A more visual approach could help users understand what’s going on without relying too much on text.
+On the positive side, Madina really liked the color scheme of the app and thought the tab toggle view within groups was easy to navigate. She also liked the idea of connecting with family and friends from around the world, which aligned with her personal interests. Overall, the concept of the app worked for her, but there are definitely some areas to improve, especially when it comes to language accessibility and event details.
+
+# Design Flaws and Opportunities
+- **Conceptual, Moderate**: In the Groups page, group descriptions are not visible, and only the group titles are displayed. This makes it challenging for users to understand the purpose of each group unless the title is specifically descriptive. While users can infer the group’s purpose from the title or by exploring the content within the group, it still requires extra effort and guesswork. To improve the user experience, providing group descriptions would significantly enhance clarity and allow users to quickly understand the group's purpose without additional exploration.
+
+- **Conceptual, Critical**: The event feature is currently not fully functional as it lacks author information and event details. This makes the event feature practically useless for users who want to post or engage with events in the app. Events are a crucial feature for community-building, and without essential details like who created the event and more information about it, users cannot effectively use the feature. This is a critical issue that needs to be addressed urgently to ensure that users can post and interact with events as intended.
+
+- **Physical, Major**: The functionality for inviting new members to a group is unreliable. Sometimes the feature does not work as expected, and when it does, it uses the group ID instead of the username, which causes confusion. This inconsistency makes the app less user-friendly and complicates the process of group formation. Having a smooth and dependable process for inviting members is essential for user engagement, and fixing this would improve the app’s reliability and ease of use.
+
+- **Physical, Critical**: Every user is automatically joined in every group, regardless of whether they wish to be a member. This leads to unwanted participation and a lack of control over which groups users are part of. It is a critical issue that needs to be fixed immediately to allow users to have more control over their group memberships and improve the user experience.
+
+- **Linguistic, Minor**: One user struggled to understand some of the text in the dummy data posts, which hindered their experience. The inclusion of a translation feature, such as integrating the Google Translate API (which was attempted but not successful), could have helped bridge this gap. By providing better language support, especially for users with limited English proficiency, the app could become more accessible and user-friendly for a global audience.

@@ -22,6 +22,6 @@ layout: doc
 ### Task List
 
 <!-- <img src="./p5table1.png" alt="table"/> -->
-<img src="./p5table2.png" alt="table2"/>
+<!-- <img src="./p5table2.png" alt="table2"/> -->
 
 **Debrief Question: “Do you have any final thoughts on what worked well or what could be improved in our app?”**
